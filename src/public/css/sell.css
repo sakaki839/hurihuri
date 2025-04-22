@@ -1,0 +1,201 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    background-color: black;
+    height: 50px;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+}
+
+.flexbox-container {
+    display: flex;
+}
+
+main {
+    width: 60%;
+    margin: auto;
+    height: 1300px;
+    padding: 0% 10%;
+}
+
+aside {
+    width: 20%;
+    min-width: 20%;
+    margin: auto;
+    height: 100px;
+}
+
+
+
+.kennsaku {
+    border: none;
+    display: inline-block;
+    border-radius: 1px;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 5px 110px 5px 50px;
+}
+
+.a2 {
+    display: inline-block;
+    border: none;
+    border-radius: 1px;
+    padding: 5px 15px;
+    margin: 5px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.a3 {
+    display: inline-block;
+    border: none;
+    border-radius: 1px;
+    padding: 5px 15px;
+    margin: 5px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.a4 {
+    display: inline-block;
+    border: none;
+    border-radius: 1px;
+    padding: 3px 15px;
+    margin: 5px;
+    background-color: #fff;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.ma1 {
+    margin: 50px;
+}
+
+.ma2 {
+    margin: 50px;
+}
+
+.ma3 {
+    margin: 50px;
+}
+
+.n1 {
+    margin: 25px 0px;
+}
+
+.h1 {
+    text-align: center;
+}
+
+.hh {
+    border-bottom: 3px solid #3333335a;
+}
+
+.hh5 {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+
+    appearance: none;
+}
+
+.ha {
+    text-align: center;
+}
+
+.b1 {
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    padding: 1% 43%;
+    margin: 5px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.form__input--text input,
+.form__input--textarea textarea {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+
+    appearance: none;
+}
+
+.form2__input--text input,
+.form2__input--textarea textarea {
+    padding: 1px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    appearance: none;
+}
+
+.form__error {
+    height: 20px;
+    color: #ff0000;
+    text-align: left;
+}
+
+.form2__error {
+    height: 20px;
+    color: #ff0000;
+    text-align: left;
+}
+
+.hh4 {
+    display: inline-block;
+    border: 2px solid red;
+    border-radius: 50px;
+    padding: 1% 1%;
+    margin: 5px;
+    background-color: #fff;
+    color: red;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.hhh3 {
+    text-align: center;
+    border: dashed 1px;
+}
+
+.hh3 {
+    display: inline-block;
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 1% 1%;
+    margin: 40px 40px 40px;
+    background-color: #fff;
+    color: red;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+}

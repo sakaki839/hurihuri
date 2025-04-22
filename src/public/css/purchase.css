@@ -1,0 +1,193 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    background-color: black;
+    height: 50px;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+}
+
+.flexbox-container {
+    display: flex;
+}
+
+main {
+    width: 60%;
+    margin: auto;
+    height: 400px;
+    padding: 30px;
+}
+
+aside {
+    width: 25%;
+    min-width: 100px;
+    margin: auto;
+    height: 300px;
+    padding: 50px;
+}
+
+.kennsaku {
+    border: none;
+    display: inline-block;
+    border-radius: 1px;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 5px 110px 5px 50px;
+}
+
+.a2 {
+    display: inline-block;
+    border: none;
+    border-radius: 1px;
+    padding: 5px 15px;
+    margin: 5px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.a3 {
+    display: inline-block;
+    border: none;
+    border-radius: 1px;
+    padding: 5px 15px;
+    margin: 5px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.a4 {
+    display: inline-block;
+    border: none;
+    border-radius: 1px;
+    padding: 3px 15px;
+    margin: 5px;
+    background-color: #fff;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.ma1 {
+    margin: 30px;
+}
+
+.ma2 {
+    margin: 50px;
+}
+
+.ma3 {
+    margin: 50px;
+}
+
+.b {
+    border: 2px solid rgb(131, 125, 125);
+}
+
+
+.b1 {
+    padding: 25px 40px;
+    border-bottom: 2px solid rgb(131, 125, 125);
+}
+
+.b11 {
+    padding: 0px 80px 0px 0px;
+}
+
+.b12 {}
+
+.b2 {
+    padding: 25px 40px;
+}
+
+.b21 {
+    padding: 0px 40px 0px 0px;
+}
+
+.b22 {}
+
+.b3 {
+    text-align: center;
+}
+
+.item1 {
+    display: inline-block;
+    border: none;
+    border-radius: 1px;
+    padding: 3px 120px;
+    margin: 50px 5px;
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.item2 {
+    display: inline-block;
+    height: 120px;
+    width: 120px;
+}
+
+.c1 {
+    display: inline-block;
+}
+
+.c2 {
+    line-height: 3em;
+}
+
+.c3 {
+    line-height: 3em;
+}
+
+.c11 {
+    height: 130px;
+    border-bottom: 2px solid rgb(131, 125, 125);
+}
+
+.c12 {
+    height: 120px;
+    border-bottom: 2px solid rgb(131, 125, 125);
+}
+
+.c121 {
+    padding: 10px 30px;
+}
+
+.c13 {
+    height: 150px;
+    border-bottom: 2px solid rgb(131, 125, 125);
+
+}
+
+.c131 {
+    display: inline-block;
+    padding: 0px 30px;
+}
+
+.c132 {
+    padding: 0px 100px;
+}
+
+.sel1 {
+    padding: 10px 20px;
+    margin-left: 40px;
+}
