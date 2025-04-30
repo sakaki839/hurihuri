@@ -51,3 +51,4 @@ $ docker-compose run php bash
 
 ## URL
 - phpmyadmin: http://localhost:8080/
+- 開発環境: http://localhost/
