@@ -13,10 +13,6 @@ class ItemController extends Controller
     return view('top');
   }
 
- 
-
-  
-
   public function mypage()
   {
     return view('mypage');

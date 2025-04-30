@@ -13,7 +13,7 @@ class AddressRequest extends FormRequest
      */
     public function authorize()
     {
-        return false;
+           return true;
     }
 
     /**
@@ -25,6 +25,10 @@ class AddressRequest extends FormRequest
     {
         return [
             //
+            'name' => ['required'],
+            'post code' => ['required',''],
+            'address' => ['required']
+
         ];
     }
 }

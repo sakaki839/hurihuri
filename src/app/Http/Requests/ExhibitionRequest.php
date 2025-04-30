@@ -13,7 +13,7 @@ class ExhibitionRequest extends FormRequest
      */
     public function authorize()
     {
-        return false;
+         return true;
     }
 
     /**
@@ -25,6 +25,12 @@ class ExhibitionRequest extends FormRequest
     {
         return [
             //
+            'name' => ['required'],
+            'explanation' => ['required','max:255'],
+            'img' => [],
+            'category' => ['selected'],
+            'situation' => ['selected'],
+            'price' => ['required','int','min:0'],
         ];
     }
 }
