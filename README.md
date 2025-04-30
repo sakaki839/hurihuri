@@ -20,8 +20,15 @@ $ docker-co pose exec php bash
 # exit
 
 $ docker-compose run php bash
-$ php artisan make:controller ItemController
-$ php artisan key:generate
+# php artisan make:controller ItemController
+# php artisan make:controller RegisterController
+# php artisan make:controller LoginController
+# php artisan make:controller CommentController
+# php artisan make:controller PurchaseController
+# php artisan make:controller AddressController
+# php artisan make:controller ProfileController
+# php artisan make:controller ExhibitionController
+# php artisan key:generate
 
 # php artisan make:request LoginRequest
 # php artisan make:request CommentRequest
@@ -30,6 +37,8 @@ $ php artisan key:generate
 # php artisan make:request ProfileRequest
 # php artisan make:request ExhibitionRequest
 # exit
+
+
 ```
 
 

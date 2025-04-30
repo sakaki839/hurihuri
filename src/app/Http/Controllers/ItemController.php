@@ -15,36 +15,11 @@ class ItemController extends Controller
 
  
 
-   public function  register()
-  {
-    return view(' register');
-  }
+  
 
   public function mypage()
   {
     return view('mypage');
-  }
-
-
-  public function login()
-  {
-    return view('login');
-  }
-
-  public function item_id()
-  {
-    return view('purchase/address/:item_id');
-  }
-
- public function item_id1()
-  {
-    return view('purchase/:item_id');
-  }
-
-
-public function profile()
-  {
-    return view('/mypage/profile');
   }
 
  public function item()
