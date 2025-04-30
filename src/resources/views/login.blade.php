@@ -41,7 +41,7 @@
           </div>
           <div class="ha">
             <div class="form__input--text">
-              <input type="pas" name="pas" placeholder="" />
+              <input type="password" name="password" placeholder="" />
             </div>
             <div class="form__error">
               <!--バリデーション機能を実装したら記述します。-->
