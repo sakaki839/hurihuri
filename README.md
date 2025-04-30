@@ -23,18 +23,12 @@ $ docker-compose run php bash
 $ php artisan make:controller ItemController
 $ php artisan key:generate
 
-# php artisan make:request LoginReques
-t
-# php artisan make:request CommentRequ
-est
-# php artisan make:request PurchaseReq
-uest
-# php artisan make:request AddressRequ
-est
-# php artisan make:request ProfileRequ
-est
-# php artisan make:request ExhibitionR
-equest
+# php artisan make:request LoginRequest
+# php artisan make:request CommentRequest
+# php artisan make:request PurchaseRequest
+# php artisan make:request AddressRequest
+# php artisan make:request ProfileRequest
+# php artisan make:request ExhibitionRequest
 # exit
 ```
 
