@@ -20,8 +20,7 @@
       <div class="ha">
         <h2>ログイン</h2>
       </div>
-      <form class="form">
-       
+      <form class="form">    
         <div class="form__group">
           <div class="form__group-title">
             <span class="form__label--item">メールアドレス</span>
