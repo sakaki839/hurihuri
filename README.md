@@ -1,3 +1,4 @@
+
 # アプリケーション名
 
 choachtechフリマ
@@ -48,6 +49,7 @@ $ docker-compose run php bash
 - gitバージョン　 2.43.0
 
 ## ER図
+![スクリーンショット 2025-04-30 215045](https://github.com/user-attachments/assets/28c98bdd-13ba-43ab-b511-71ec4fed6827)
 
 ## URL
 - phpmyadmin: http://localhost:8080/
