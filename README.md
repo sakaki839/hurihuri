@@ -47,9 +47,11 @@ $ docker-compose run php bash
 # php artisan make:migration create_address_table
 # php artisan make:migration create_profile_table
 
-#php artisan migrate
+# php artisan migrate
 
-
+# php artisan make:model Login
+# php artisan make:model Address
+# php artisan make:model Profile
 
 ```
 
