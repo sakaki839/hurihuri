@@ -9,11 +9,14 @@ $ cd coachtech/laravel
 $ git clone git@github.com:coachtech-material/laravel-docker-template.git
 $ mv laravel-docker-template hurima
 $ cd hurima
-$ git remote set-url origin git@github.com:sakaki839/hurihuri.git
+$ git remote set-url origin git@github.com:sakaki839/hurima.git
 $ git remote -v
-$ git commit -m "リモートリポジトリの変更"
-$ docker-co pose up -d --build
-$ docker-co pose exec php bash
+$ git add .
+$ git push -u origin main
+$ git push origin main
+$ docker-compose up -d --build
+$ code .
+$ docker-compose exec php bash
 
 # composer install
 #  cp .env.example .env
@@ -37,6 +40,12 @@ $ docker-compose run php bash
 # php artisan make:request ProfileRequest
 # php artisan make:request ExhibitionRequest
 # exit
+
+# php artisan make:migration create_item_table
+# php artisan make:migration create_login_table
+# php artisan make:migration create_purchase_table
+# php artisan make:migration create_address_table
+# php artisan make:migration create_profile_table
 
 
 ```
