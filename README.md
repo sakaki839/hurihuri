@@ -53,6 +53,8 @@ $ docker-compose run php bash
 # php artisan make:model Address
 # php artisan make:model Profile
 
+# php artisan key:generate
+
 ```
 
 
